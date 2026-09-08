@@ -19,8 +19,8 @@ Turn **AI Agent** into a desktop app: no Node.js, no CLI. Bundled official kerne
 - 🧩 Pre-installed: task-board plugin + plugin market
 
 **Built-in enhancements (0.2.x)**
-- 📅 **Scheduled tasks**: daily / weekly / interval Agent runs; skips sleep, catches up later; **system notification on completion/failure** (click to focus) and **recent run results** viewable anytime
-- 🧠 **Long-term memory** on the shell side, fed to scheduled runs; **view/delete entries** one by one, or paste a transcript to have **AI distill** it into memory (auto-dedup)
+- 📅 **Scheduled tasks**: daily / weekly / interval Agent runs; skips sleep, catches up later; **Windows notification** on completion / failure (click to focus window); expand a task to see its **latest result**
+- 🧠 **Long-term memory** on the shell side, fed to scheduled runs; **list / delete** individual memories, or **one-click refine** (paste chat / notes → auto-extract preferences worth remembering, dedup against existing)
 - 📱 **Remote access from phone**: scan QR on same Wi-Fi, or a free public tunnel when away (token-protected; auto-closes when idle)
 - 🛡️ **3-layer plugin defense**: sentry → auto-isolate & restart → compat matrix
 - 🔄 **Auto-update** with one-click restart install

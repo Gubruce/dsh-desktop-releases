@@ -1,4 +1,4 @@
-<!-- dsh-desktop-releases home README (English, 0.2.5) -->
+<!-- dsh-desktop-releases home README (English, 0.2.6) -->
 # DeepSeek Harness Desktop
 
 English | [简体中文](README.md)
@@ -19,6 +19,7 @@ Turn **AI Agent** into a desktop app: no Node.js, no CLI. Bundled official kerne
 - 🧩 Pre-installed: task-board plugin + plugin market
 
 **Built-in enhancements (0.2.x)**
+- 📊 **Usage & cost card**: today / this-month spend, tokens, call counts and official balance at a glance in Settings → General, plus a 7-day spend trend chart and top models (read-only aggregation; graceful fallback if the ledger is missing)
 - ✨ **Prompt optimizer**: ✨ button by the chat input — rewrite your whole message or a **selected part** via DeepSeek to be clearer for the AI; a compare dialog shows original vs optimized with one-click **replace / copy** (verified insert, clipboard fallback)
 - 📅 **Scheduled tasks**: daily / weekly / interval Agent runs; skips sleep, catches up later; **Windows notification** on completion / failure (click to focus window); expand a task to see its **latest result**
 - 🧠 **Long-term memory** on the shell side, fed to scheduled runs; **list / delete** individual memories, or **one-click refine** (paste chat / notes → auto-extract preferences worth remembering, dedup against existing)
